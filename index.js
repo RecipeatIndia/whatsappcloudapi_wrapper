@@ -342,6 +342,7 @@ class WhatsappCloud {
         headerText,
         bodyText,
         footerText,
+        actionBtnText,
         listOfSections,
     }) {
         this._mustHaverecipientPhone(recipientPhone);
@@ -433,7 +434,7 @@ class WhatsappCloud {
                     text: footerText,
                 },
                 action: {
-                    button: 'Select a product',
+                    button: actionBtnText || 'Select an ',
                     sections: validSections,
                 },
             },
