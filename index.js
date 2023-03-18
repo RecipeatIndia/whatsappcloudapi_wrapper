@@ -434,7 +434,7 @@ class WhatsappCloud {
                     text: footerText,
                 },
                 action: {
-                    button: actionBtnText || 'Select an ',
+                    button: actionBtnText || 'Select',
                     sections: validSections,
                 },
             },
